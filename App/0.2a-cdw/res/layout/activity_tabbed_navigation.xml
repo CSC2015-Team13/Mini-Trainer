@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tabHost"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    
+    <TabWidget
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@android:id/tabs" />
+    
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@android:id/tabcontent"
+        >
+        
+        <LinearLayout
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:id="@+id/tabExercises"
+            android:orientation="vertical"
+            android:paddingTop="60px"
+            >
+            
+            <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="This is the first tab" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:id="@+id/tabActivities"
+            android:orientation="vertical"
+            android:paddingTop="60px"
+            >
+            
+            <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="This is the second tab" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:id="@+id/tabProfile"
+            android:orientation="vertical"
+            android:paddingTop="60px"
+            >
+            
+            <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Height (cm): " />
+            
+            <EditText
+                android:id="@+id/profileInputHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="160"
+                android:inputType="number" />
+            
+            <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Weight (kg): " />
+            
+            <EditText
+                android:id="@+id/profileInputWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="60"
+                android:inputType="number"/>
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="BMI goes here"
+                android:id="@+id/profileDisplayBMI" />
+            
+            <Button 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculate BMI"
+                android:id="@+id/profileCalculateBMI"
+                android:onClick="calculateBMI" />
+            
+            
+        </LinearLayout>
+        
+    </FrameLayout>
+    
+</TabHost>
+
