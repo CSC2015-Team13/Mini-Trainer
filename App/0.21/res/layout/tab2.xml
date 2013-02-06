@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="65dp" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editHeight"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/hint_height"
+            android:inputType="number"
+            android:textSize="16sp" >
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/heightExample"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/text_heightEx"
+            android:textSize="16sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <EditText
+            android:id="@+id/editWeight"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/hint_weight"
+            android:inputType="numberDecimal"
+            android:selectAllOnFocus="true"
+            android:textSize="16sp"
+            android:imeOptions="actionDone" />
+
+        <TextView
+            android:id="@+id/weightExample"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="1"
+            android:text="@string/text_weightEx"
+            android:textSize="16sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/calcBMI"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="@string/button_bmi"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/bmiTag"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="@string/text_bmiTag"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/resBMI"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.4"
+            android:gravity="left|center"
+            android:text="@string/default_BMI"
+            android:textSize="17sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+        
+         <EditText
+             android:id="@+id/exerMin"
+             android:layout_width="150dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:ems="10"
+             android:hint="@string/hint_minsEx"
+             android:inputType="number"
+             android:textSize="16sp" >
+
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+         
+         <EditText
+             android:id="@+id/calorVal"
+             android:layout_width="150dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:ems="10"
+             android:hint="@string/hint_calories"
+             android:inputType="number"
+             android:textSize="16sp" >
+
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+         
+        <Button
+            android:id="@+id/giveFeedback"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_feedback"
+            android:textSize="17sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+        <TextView
+            android:id="@+id/feedback"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="@string/default_feedback"
+            android:textSize="14sp" />
+
+    </TableRow>
+
+</TableLayout>
