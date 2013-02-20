@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Minitrainer</string>
+    <string name="app_logo">Minitrainer_logo</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button_exDiets">Exercises and Diets</string>
+    <string name="button_prof">Profile</string>
+    <string name="button_activities">Activities</string>
+    <string name="button_prefs">Preferences</string>
+    
+    <!-- Exercises Activity -->
+    
+    <string name="ex1_step1">1.Take a prone position on the floor or other rigid surface that\'s able to support your body weight.Keep your feet together!</string>
+    <string name="ex1_step2">2.Position hands palms-down on the floor, approximately shoulder width apart.\n3.Raise yourself using your arms then lower your torso to the ground until your elbows form a 90 degree angle.</string>
+    <string name="ex1_step3">4.Raise yourself using your arms then lower your torso to the ground until your elbows form a 90 degree angle.</string>
+    <string name="complete_ex">Compete exercise</string>
+    
+    <string name="ex2_step1">1.Lie on your back on the floor.</string>
+    <string name="ex2_step2">2.Bend your knees. Your feet can be flat on the floor, or you can keep them suspended in the air during your crunches for a little extra crunch.</string>
+    <string name="ex2_step3">3.Cross your arms in front of your chest.Your head and neck should be resting on your hands.</string>
+    <string name="ex2_step4">4.Curl your back to lift your shoulders towards the ceiling (not towards your knees) using strictly your abdominal muscles. It is very important not to lift your entire back off the floor, as this can cause back strain.</string>
+    
+    <string name="ex3_step1">1.Place your feet about shoulder width apart, feet angled out slightly.</string>
+    <string name="ex3_step2">2.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna </string>
+    <string name="ex3_step3">2.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna  </string>
+    <!-- Tabs Main -->
+    <string name="title_activity_tabbed">Minitrainer</string>
+
+    <!-- Tab 1 -->
+    <string name="text_tab1">Do you want to exercise or look up a diet?</string>
+    <string name="text_exButton"></string>
+    <string name="text_dButton"></string>
+
+    <!-- Tab 2 -->
+    <string name="text_tab2">Profile</string>
+    <string name="hint_height">Height in cms</string>
+    <string name="hint_weight">Weight in kgs</string>
+    <string name="button_bmi">Calculate BMI</string>
+    <string name="default_BMI">N/A</string>
+    <string name="text_heightEx">e.g. 186 (cm)</string>
+    <string name="text_weightEx">e.g. 76.4 (kg)</string>
+    <string name="text_bmiTag">BMI:</string>
+    <string name="hint_minsEx">Time spent exercising per day (mins)</string>
+    <string name="hint_calories">Calories consumed per day?</string>
+    <string name="button_feedback">Assess</string>
+    <string name="default_feedback">No feedback yet</string>
+    <string name="text_level">Level:</string>
+    <string name="value_currentLvl">1</string>
+    <string name="text_experience">Experience gained:</string>
+    <string name ="value_currentExp">0/50</string>
+
+    <!-- Tab 3 -->
+    <string name="text_tab3">Activities</string>
+
+    <!-- Test -->
+    <string name="out">txview</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_exercise">ExerciseActivity</string>
+
+</resources>
