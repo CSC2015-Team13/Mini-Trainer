@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tabHostLogin"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+            
+	    <TabWidget
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:id="@android:id/tabs" />
+	    
+	    <FrameLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:id="@android:id/tabcontent"
+	        >
+		
+			<LinearLayout
+			    android:id="@+id/tabLogin"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:orientation="vertical"
+			    android:padding="10dip"
+			     >
+			
+			    <TextView
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:text="Username (test)"
+			        android:singleLine="true"
+			        android:layout_marginBottom="5dip" />
+			    
+			    <EditText 
+			        android:id="@+id/txtUsername"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="10dip" />
+			    
+			    <TextView
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:text="Password (test)"
+			        android:layout_marginBottom="5dip" />
+			    
+			    <EditText
+			        android:id="@+id/txtPassword"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="20dip"
+			        android:password="true"
+			        android:singleLine="true" />
+			    
+			    <Button
+			        android:id="@+id/btnLogin"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:text="Login"
+			        android:onClick="loginUser" />
+			        
+			</LinearLayout>
+			
+
+			<LinearLayout
+			    android:id="@+id/tabRegister"
+			    android:layout_height="match_parent"
+			    android:layout_width="match_parent"
+			    android:orientation="vertical"
+			    android:padding="10dip">
+			    
+			    <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Select a username"
+				    android:singleLine="true" />
+				<EditText 
+				    android:id="@+id/txtRegisterUsername"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content" />
+				<TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Input a password"
+				    android:singleLine="true" />
+				<EditText
+				    android:id="@+id/txtRegisterPass1"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content" />
+				<TextView 
+				    android:layout_height="wrap_content"
+				    android:layout_width="fill_parent"
+				    android:text="Confirm your password"
+				    android:singleLine="true" />
+				<EditText
+				    android:id="@+id/txtRegisterPass2"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content" />
+				<TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Input your Forename and Surname"
+				    android:singleLine="true" />
+				<EditText
+				    android:id="@+id/txtRegisterForename"
+				    android:layout_height="wrap_content"
+				    android:layout_width="fill_parent" />
+				<EditText
+				    android:id="@+id/txtRegisterSurname"
+				    android:layout_height="wrap_content"
+				    android:layout_width="fill_parent" />
+				<Button
+				    android:id="@+id/btnRegister"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Register new user"
+				    android:onClick="registerUser" />
+			    
+			</LinearLayout>
+		
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>
