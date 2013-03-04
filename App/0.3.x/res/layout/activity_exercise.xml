@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/scrollView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#acb1b4"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+   
+
+	<Button
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_pushups"
+        android:id="@+id/button1" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/panel1"
+        android:background="#ff888888" >
+
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginTop="5dip"
+        	    android:text="@string/text_ex1_step1"
+        	    android:textColor="#ffffff"
+        	    android:textSize="15dip" />
+
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginTop="5dip"
+        	    android:text="@string/text_ex1_step2"
+        	    android:textColor="#ffffff"
+        	    android:textSize="15dip" />
+      
+        	<ImageView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_gravity="center"
+        	    android:src="@drawable/pushups" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginTop="5dip"
+        	    android:text="@string/text_ex1_step3"
+        	    android:textColor="#ffffff"
+        	    android:textSize="15dip" />
+
+        	<Button
+        	    android:id="@+id/complete_ex1"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_gravity="center"
+        	    android:text="@string/text_complete_ex_button" />
+
+    </LinearLayout>
+
+    <Button
+     	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:text="@string/text_crunches"
+        android:id="@+id/button2" />   
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/panel2"
+        android:background="#ff888888" >
+
+         	<TextView
+         		android:layout_width="wrap_content"
+         		android:layout_height="wrap_content"
+        		android:layout_marginTop="5dip"
+         		android:text="@string/text_ex2_step1" 
+         		android:textSize="15dip"
+         		android:textColor="#ffffff" />
+
+         	<TextView
+         		android:layout_width="wrap_content"
+         		android:layout_height="wrap_content"
+        		android:layout_marginTop="5dip"
+         		android:text="@string/text_ex2_step2" 
+         		android:textSize="15dip"
+         		android:textColor="#ffffff" />
+    
+           <ImageView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_gravity="center"
+        	    android:src="@drawable/crunches" />
+         	
+         	<TextView
+         		android:layout_width="wrap_content"
+         		android:layout_height="wrap_content"
+        		android:layout_marginTop="5dip"
+         		android:text="@string/text_ex2_step3" 
+         		android:textSize="15dip"
+         		android:textColor="#ffffff" />
+         	
+         	<TextView
+         		android:layout_width="wrap_content"
+         		android:layout_height="wrap_content"
+        		android:layout_marginTop="5dip"
+         		android:text="@string/text_ex2_step4" 
+         		android:textSize="15dip"
+         		android:textColor="#ffffff" />
+    
+        	<Button
+        	    android:id="@+id/complete_ex2"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_gravity="center"
+        	    android:text="@string/text_complete_ex_button" />
+
+	</LinearLayout>
+	
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_squats" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/panel3"
+        android:background="#ff888888" >
+
+         	<TextView
+         		android:layout_width="wrap_content"
+         		android:layout_height="wrap_content"
+        		android:layout_marginTop="5dip"
+         		android:text="@string/text_ex3_step1" 
+         		android:textSize="15dip"
+         		android:textColor="#ffffff" />
+
+         	<TextView
+         		android:layout_width="wrap_content"
+         		android:layout_height="wrap_content"
+        		android:layout_marginTop="5dip"
+         		android:text="@string/text_ex3_step2" 
+         		android:textSize="15dip"
+         		android:textColor="#ffffff" />
+    
+           <ImageView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_gravity="center"
+        	    android:src="@drawable/squats" />
+         	
+         	<TextView
+         		android:layout_width="wrap_content"
+         		android:layout_height="wrap_content"
+        		android:layout_marginTop="5dip"
+         		android:text="@string/text_ex3_step3" 
+         		android:textSize="15dip"
+         		android:textColor="#ffffff" />
+   
+    
+        	<Button
+        	    android:id="@+id/complete_ex3"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_gravity="center"
+        	    android:text="@string/text_complete_ex_button" />
+	</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
