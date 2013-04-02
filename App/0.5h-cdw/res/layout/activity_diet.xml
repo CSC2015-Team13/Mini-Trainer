@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/svDiets"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#acb1b4"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<Button
+	    android:id="@+id/dButton1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/text_muscleGain"
+	    android:textSize="20sp" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/dPanel1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff888888"
+        android:orientation="vertical" >
+        	
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_breakfast"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d1_breakfast"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_snack"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d1_snack1"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+        	
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_lunch"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d1_lunch"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="5dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_snack"
+        	    android:textColor="#ffffff"
+        	    android:textSize="18sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d1_snack2"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="5dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_dinner"
+        	    android:textColor="#ffffff"
+        	    android:textSize="18sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d1_dinner"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+        	
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dip"
+                android:text="@string/text_snack"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginBottom="5dp"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d1_snack3"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_weightLoss"
+        android:textSize="20sp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/dPanel2"
+        android:background="#ff888888" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_breakfast"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d2_breakfast"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_snack"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d2_snack1"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+        	
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_lunch"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d2_lunch"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="5dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_preWO"
+        	    android:textColor="#ffffff"
+        	    android:textSize="18sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d2_snack2"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="5dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_postWO"
+        	    android:textColor="#ffffff"
+        	    android:textSize="18sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d2_snack3"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="5dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_dinner"
+        	    android:textColor="#ffffff"
+        	    android:textSize="18sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginBottom="5dp"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d2_dinner"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+
+	</LinearLayout>
+	
+        <Button
+            android:id="@+id/dButton3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_getRipped"
+            android:textSize="20sp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/dPanel3"
+        android:background="#ff888888" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_breakfast"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d3_breakfast"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_snack"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d3_snack1"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+        	
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_lunch"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d3_lunch"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="5dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_snack"
+        	    android:textColor="#ffffff"
+        	    android:textSize="18sp" />
+        	
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d3_snack2"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="5dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_dinner"
+        	    android:textColor="#ffffff"
+        	    android:textSize="18sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d3_dinner"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+        	
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_snack"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        	
+        	<TextView
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginBottom="5dp"
+        	    android:layout_marginLeft="20dp"
+        	    android:layout_marginTop="5dp"
+        	    android:text="@string/text_d3_snack3"
+        	    android:textColor="#ffffff"
+        	    android:textSize="16sp" />
+
+	</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
