@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/editHeight1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_heightEx"
+        android:inputType="number"
+        android:maxLength="3"
+        android:textSize="15sp" >
+
+    	<requestFocus />
+    </EditText>
+ 
+    <EditText
+        android:id="@+id/editWeight1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_weightEx"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:textSize="15sp" />
+ 
+</LinearLayout>
