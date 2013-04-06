@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+			    
+			    <EditText
+			        android:id="@+id/txtUsername"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="10dip"
+			        android:layout_marginLeft="5dp"
+			        android:layout_marginRight="5dp"
+			        android:layout_marginTop="10dp"
+			        android:hint="@string/hint_login_username"
+			        android:inputType="text" />
+			    
+			    <EditText
+			        android:id="@+id/txtPassword"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="5dp"
+			        android:layout_marginRight="5dp"
+			        android:hint="@string/hint_login_password"
+			        android:inputType="textPassword"
+			        android:singleLine="true" />
+
+			    <CheckBox
+			        android:id="@+id/checkBox1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:text="@string/chbox_save_dets"
+			        android:textSize="18sp" />
+			    
+			    <Button
+			        android:id="@+id/btnLogin"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="5dp"
+			        android:alpha="0.8"
+			        android:background="#cccbcb"
+			        android:minHeight="55dp"
+			        android:text="@string/button_login"
+			        android:textSize="30sp"
+			        android:textStyle="normal" />
+
+</LinearLayout>
