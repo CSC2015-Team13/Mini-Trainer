@@ -1,0 +1,93 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg_login"
+    tools:context=".LoginActivity" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1" >
+        
+        <TabHost
+            android:id="@+id/tabHostLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+            
+	    <TabWidget
+	        android:id="@android:id/tabs"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:tabStripEnabled="false" />
+	    
+	    <FrameLayout
+	        android:id="@android:id/tabcontent"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="#ffffff" >
+	        
+	        	<include
+	        	    android:layout_width="match_parent"
+	        	    android:layout_height="wrap_content"
+	        	    layout="@layout/login_tab" />
+     	
+     			<include
+     			    android:layout_width="match_parent"
+     			    android:layout_height="wrap_content"
+     			    layout="@layout/register_tab" />
+
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/text_AccRecovery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/unable_login"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+</TableLayout>
