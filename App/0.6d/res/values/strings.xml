@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Login Activity -->
+
+    <string name="unable_login">Trouble logging in?</string>
+    <string name="logo">minitrainer logo</string>
+    <string name="tab_register">Register</string>
+    <string name="tab_login">Login</string>
+    <string name="hint_login_username">Username</string>
+    <string name="hint_login_password">Password</string>
+    <string name="hint_reg_username">Choose a username</string>
+    <string name="hint_reg_password">And a password</string>
+    <string name="hint_reg_email">Your email address</string>
+    <string name="button_register">Begin!</string>
+    <string name="button_login">Go!</string>
+    <string name="chbox_save_dets">Remember me</string>
+    <string name="text_recovery_info">Account details will be sent to your email address</string>
+
+    <!-- Main -->
+    <string name="app_name">Minitrainer</string>
+    <string name="app_logo">Minitrainer_logo</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button_exDiets">Exercises and Diets</string>
+    <string name="button_prof">Profile</string>
+    <string name="button_activities">Activities</string>
+    <string name="button_prefs">Preferences</string>
+
+    <!-- Exercise Activity -->
+    <string name="stepX">1/4</string>
+    <string name="text_pushups">Simple push-ups</string>
+    <string name="text_crunches">Crunches</string>
+    <string name="text_squats">Squats</string>
+    <string name="text_abs_wout">Abs workout</string>
+    <string name="text_mountain_climbers">Mountain climbers</string>
+    <string name="text_pushups_singleLegRaise">Push-ups with single-leg raise</string>
+    <string name="text_stabBallPushups">Stability ball push-ups</string>
+    <string name="text_ex1_step1">Suggested number of reps: 20 \n\nTake a prone position on the floor or other rigid surface that\'s able to support your body weight.\nKeep your feet together!</string>
+    <string name="text_ex1_step2">Position hands palms-down on the floor, approximately shoulder width apart.</string>
+    <string name="text_ex1_step3">Raise yourself using your arms then lower your torso to the ground until your elbows form a 90 degree angle.</string>
+    <string name="text_ex2_step1">Suggested number of reps: 20 \n\nLie on your back on the floor and bend your knees.\nYour feet can be flat on the floor, or you can keep them suspended in the air during your crunches for a little extra crunch.</string>
+    <string name="text_ex2_step2">Cross your arms in front of your chest.\nYour head and neck should be resting on your hands.</string>
+    <string name="text_ex2_step3">Curl your back to lift your shoulders towards the ceiling (not towards your knees) using strictly your abdominal muscles. </string>
+    <string name="text_ex3_step1">Suggested number of reps: 20 \n\nSet your legs apart, while keeping your weight on your heels.\nKeep your chest up!</string>
+    <string name="text_ex3_step2">Gradually push your hips back towards the floor.\nYour hips should move before your knees bend.\nWedge your elbows in between your knees at the bottom point of the movement.</string>
+    <string name="text_ex3_step3">Initiate the second part of the move by driving your hips forward to return to the start position</string>
+    <string name="text_ex4_step1">Suggested number of reps: 15-20\n\nStart with your body flat on your back.</string>
+    <string name="text_ex4_step2">Stretch your hands backwards and raise your feet 6 inches(15cm) from the ground.</string>
+    <string name="text_ex4_step3">Begin by gradually bringing your arms forward towards your knee and at the same time raise your legs up to a 45 degree angle.\nSlowly return both hands and legs to the start position and repeat this for the required sets.</string>
+    <string name="text_ex5_step1">Suggested number of reps: 10-20 \n\nBegin with a hands and knees position with your toes pointed toward the floor.\nBring your left knee forward and place it on the floor under your chest.</string>
+    <string name="text_ex5_step2">Lift your right knee off the ground, making your right leg straight and strong</string>
+    <string name="text_ex5_step3">Keeping your hands firmly on the ground, jump to switch leg positions.</string>
+    <string name="text_ex5_step4">Now your left leg should be fully extended while your right knee is placed under your chest, and your hands firmly on the ground.\nMake sure to maintain your body weight on both legs. </string>
+    <string name="text_ex6_step1">Suggested number of reps: 15 \n\nCome to a hands and knees position (quadruped) on the ground with your hands directly under your shoulders, fingers facing forward, and knees under your hips.</string>
+    <string name="text_ex6_step2">Reach one leg out and away followed by the other leg, bringing you to a plank position.\nYour head should be aligned with your spine. </string>
+    <string name="text_ex6_step3">Slowly bend the elbows, lowering your body toward the floor.\nKeep your head aligned with your spine.\nDo not allow your low back or ribcage to sag or your hips to hike upward. </string>
+    <string name="text_ex6_step4">Straighten the elbows, pressing upward through your arms.\nAs you straighten the arms, lift your left foot off the floor, keeping the knee straight.\nContinue pressing until the elbows are straight and your left leg is off the floor.</string>
+    <string name="text_ex6_step5">Hold this position briefly before returning to your starting position.\nRepeat the push up alternating legs with each repetition.</string>
+    <string name="text_ex7_step1">Suggested number of reps: 20\nPre-requisite: a stability ball or a big pillow\n\nBegin this with your body directly on top of the ball. The ball should be placed beneath your abdomen, the stretch your legs on the floor. Take a few deep breaths before you start.</string>
+    <string name="text_ex7_step2">Try to gently squeeze the ball between your hands to create more strength and stability.</string>
+    <string name="text_ex7_step3">Slowly press your body upward until your elbows are straight.\nKeep your body straight for a few seconds and then return to the start position.</string>
+    <string name="text_complete_ex_button">Complete exercise</string>
+
+    <!-- Diet Activity -->
+
+    <string name="text_muscleGain">Muscle gain</string>
+    <string name="text_weightLoss">Weight loss</string>
+    <string name="text_getRipped">Get ripped</string>
+    <string name="text_staySlim">Staying slim</string>
+    <string name="text_d5">Diet 5</string>
+    <string name="text_d6">Diet 6</string>
+    <string name="text_d7">Diet 7</string>
+    <string name="text_breakfast">Breakfast</string>
+    <string name="text_snack">Snack</string>
+    <string name="text_lunch">Lunch</string>
+    <string name="text_dinner">Dinner</string>
+    <string name="text_preWO">Pre-workout</string>
+    <string name="text_postWO">Post-workout</string>
+    <string name="text_d1_breakfast">3 whole eggs, 2 egg white\nGrilled bacon\n1 tomato\n2 bagels\nFruit juice (0.5l)</string>
+    <string name="text_d1_snack1">Cottage cheese on 6 crackers\n1 banana</string>
+    <string name="text_d1_lunch">Baked potato\nTuna\nCheese\nProtein shake</string>
+    <string name="text_d1_snack2">1 wholegrain bagel\nSmoked salmon(80g)\nCottage cheese\nProtein shake</string>
+    <string name="text_d1_dinner">Protein shake\nChicken (or beef fajitas)</string>
+    <string name="text_d1_snack3">All-bran muffin or carrot cake</string>
+    <string name="text_d2_breakfast">Ham and mushroom omelette</string>
+    <string name="text_d2_snack1">Nuts and fish oil</string>
+    <string name="text_d2_lunch">Homemade tuna salad</string>
+    <string name="text_d2_snack2">Chicken and vegetables</string>
+    <string name="text_d2_snack3">Protein shake and fruit</string>
+    <string name="text_d2_dinner">Chicken stir fry with brown rice</string>
+    <string name="text_d3_breakfast">4 egg whites(scrambled, fried or omelette)\nWholegrain bread(2 slices)\nOats(50g)\nMilk</string>
+    <string name="text_d3_snack1">2 oatcakes and 2 apples</string>
+    <string name="text_d3_lunch">Turkey(150g)\nSwiss cheese and salad on wholegrain bread</string>
+    <string name="text_d3_snack2">Protein shake\n2 pieces of citrus fruit\nblack coffee</string>
+    <string name="text_d3_dinner">Stir fried chicken(150g)\nBrown rice\n(1 cup)\nBroccoli</string>
+    <string name="text_d3_snack3">Frozen yoghurt (200ml)\nProtein shake</string>
+    <string name="text_d4_breakfast">Pick and/or mix:\nSkim cheese/yogurt\nOatmeal/buckwheat porridge\nCup of tea or milk\n2-3 whole eggs(scrambled, fried or omelette)</string>
+    <string name="text_d4_snack1">2-3 slices of cheese</string>
+    <string name="text_d4_lunch">Pick and/or mix:\nSeafood, fish, meat (do not fry!)\nBrown rice\nMacaroni/pasta\nBuckwheat\nPotatoes (do not fry!)</string>
+    <string name="text_d4_snack2">Pick and/or mix:\nFruits\nNuts\n30g of chocolate\nDried fruits</string>
+    <string name="text_d4_dinner">Pick and/or mix:\nSteamed vegetables\nSteamed fish</string>
+    <string name="text_d4_snack3">Cup of green tea/milk</string>
+    <string name="text_d5_breakfast">qweqweqweqwe</string>
+    <string name="text_d5_snack1">qweqweqwewqe</string>
+    <string name="text_d5_lunch">qeqewqeqwe</string>
+    <string name="text_d5_snack2">qweqeqwewqeq</string>
+    <string name="text_d5_dinner">qweqweqweqw</string>
+    <string name="text_d5_snack3">qeqwewqeqwe</string>
+    <string name="text_d6_breakfast">zczxczxczxc</string>
+    <string name="text_d6_snack1">zxczxczxczc</string>
+    <string name="text_d6_lunch">zxczczxczxczx</string>
+    <string name="text_d6_snack2">zxczxcxz</string>
+    <string name="text_d6_dinner">zxczxczxczx</string>
+    <string name="text_d6_snack3">zcxzczxczxc</string>
+
+    <!-- Tabs Main -->
+    <string name="title_activity_tabbed">Minitrainer</string>
+
+    <!-- Tab 1 -->
+    <string name="text_tab1">Do you want to exercise or look up a diet?</string>
+    <string name="text_exButton"></string>
+    <string name="text_dButton"></string>
+
+    <!-- Tab 2 -->
+    <string name="text_tab2">Profile</string>
+    <string name="text_progress">Progress</string>
+    <string name="text_level">Level:</string>
+    <string name="text_experience">Experience gained:</string>
+    <string name="text_value_currentLvl">1</string>
+    <string name="text_value_currentExp">0</string>
+    <string name="text_compExToday">Exercises done today:</string>
+    <string name="text_value_compExToday">0</string>
+    <string name="text_feedback">Feedback</string>
+    <string name="text_yourPerfToday">Performance today:</string>
+    <string name="text_default_perf">You did a good job!</string>
+    <string name="hint_heightEx">Height e.g. 186(cm)</string>
+    <string name="hint_weightEx">Weight e.g. 73.5(kg)</string>
+    <string name="text_button_bmi">Calculate BMI</string>
+    <string name="text_default_BMI">N/A</string>
+    <string name="text_bmiTag">Your BMI is:</string>
+    <string name="text_na">N/A</string>
+    <string name="text_tapHere">Tap to calculate</string>
+    <string name="text_default_feedback">No feedback yet</string>
+
+    <!-- Tab 3 -->
+    <string name="text_tab3">Activities</string>
+
+    <!-- Quiz -->
+
+    <string name="q1">Which of these foods is the richest in Calcium?</string>
+    <string name="q1A">A) Cheese</string>
+    <string name="q1B">B) Milk</string>
+    <string name="q1C">C) Almonds</string>
+    <string name="q1D">D) Brazil Nuts</string>
+    <string name="q2">How much weight does water make up in our bodies?</string>
+    <string name="q2A">A) 30-40%</string>
+    <string name="q2B">B) 40-50%</string>
+    <string name="q2C">C) 50-60%</string>
+    <string name="q2D">D) 60-70%</string>
+    <string name="q3">Which have the most Vitamin C?</string>
+    <string name="q3A">A) Bell Peppers</string>
+    <string name="q3B">B) Oranges</string>
+    <string name="q3C">C) Lemons</string>
+    <string name="q3D">D) Kiwis</string>
+    <string name="q4">Which is the richest in Vitamin A?</string>
+    <string name="q4A">A) Tomato</string>
+    <string name="q4B">B) Carrot</string>
+    <string name="q4C">C) Liver</string>
+    <string name="q4D">D) Lettuce</string>
+    <string name="q5">Which of these has the highest amount of Iron in it?</string>
+    <string name="q5A">A) Liver</string>
+    <string name="q5B">B) Dark Chocolate</string>
+    <string name="q5C">C) Beans</string>
+    <string name="q5D">D) Nuts</string>
+    <string name="q6">Which of these have the most Zinc?</string>
+    <string name="q6A">A) Dried Bananas</string>
+    <string name="q6B">B) Raspberries</string>
+    <string name="q6C">C) Avocados</string>
+    <string name="q6D">D) Dried Apricots</string>
+    <string name="q7">Which of these has the highest Cholesterol?</string>
+    <string name="q7A">A) Caviar</string>
+    <string name="q7B">B) Cheese</string>
+    <string name="q7C">C) Liver</string>
+    <string name="q7D">D) Egg Yolk</string>
+    <string name="q8">Which one has the most protein?</string>
+    <string name="q8A">A) Turkey Breast</string>
+    <string name="q8B">B) Beans</string>
+    <string name="q8C">C) Tuna, Salmon</string>
+    <string name="q8D">D) Eggs</string>
+    <string name="q9">Which way of cooking eggs is the least healthy one?</string>
+    <string name="q9A">A) Poaching</string>
+    <string name="q9B">B) Frying</string>
+    <string name="q9C">C) Omelette</string>
+    <string name="q9D">D) Scrambled</string>
+    <string name="q10">Which nutrient is the most important source of energy in exercises with high intensity?</string>
+    <string name="q10A">A) Fat</string>
+    <string name="q10B">B) Carbohydrate</string>
+    <string name="q10C">C) Protein</string>
+    <string name="q10D">D) All the above in equal parts</string>
+    <string name="q11">Which one has the most protein?</string>
+    <string name="q11A">A) Turkey Breast</string>
+    <string name="q11B">B) Beans</string>
+    <string name="q11C">C) Tuna, Salmon</string>
+    <string name="q11D">D) Eggs</string>
+    <string name="q12">How should a sports drink NOT be?</string>
+    <string name="q12A">A) Isotonic</string>
+    <string name="q12B">B) Hypertonic</string>
+    <string name="q12C">C) Hypotonic</string>
+    <string name="q12D">D) It does not matter</string>
+    <string name="q13">Which food has the highest Vitamin E content?</string>
+    <string name="q13A">A) Eggs</string>
+    <string name="q13B">B) Coconut oil</string>
+    <string name="q13C">C) Sunflower Seeds</string>
+    <string name="q13D">D) Poppy</string>
+    <string name="text_qNum">Question # x</string>
+    <string name="text_question">Nothing to ask yet</string>
+    <string name="text_choiceA"></string>
+    <string name="text_choiceB"></string>
+    <string name="text_choiceC"></string>
+    <string name="text_choiceD"></string>
+
+    <!-- Facts -->
+    <string name="text_factTitle1">Fact #1 &amp; Fact #2</string>
+    <string name="text_factTitle2">Fact #3 &amp; Fact #4</string>
+    <string name="text_factTitle3">Fact #5 &amp; Fact #6</string>
+    <string name="text_factTitle4">Fact #7 &amp; Fact #8</string>
+    <string name="text_factTitle5">Fact #9 &amp; Fact #10</string>
+    <string name="text_factTitle6">Fact #11 &amp; Fact #12</string>
+    <string name="text_factTitle7">Fact #13 &amp; Fact #14</string>
+    <string name="text_factTitle8">Fact #15 &amp; Fact #16</string>
+    <string name="text_factTitle9">Fact #17 &amp; Fact #18</string>
+    <string name="text_factTitle10">Fact #19 &amp; Fact #20</string>
+    <string name="text_factTitle11">Fact #21 &amp; Fact #22</string>
+    <string name="text_factTitle12">Fact #23 &amp; Fact #24</string>
+    <string name="text_factTitle13">Fact #25 &amp; Fact #26</string>
+    <string name="text_factTitle14">Fact #27 &amp; Fact #28</string>
+    <string name="text_factTitle15">Fact #29 &amp; Fact #30</string>
+    <string name="text_fact1">fact1</string>
+    <string name="text_fact2">fact2</string>
+    <string name="text_fact3">fact3</string>
+    <string name="text_fact4">fact4</string>
+    <string name="text_fact5">fact5</string>
+    <string name="text_fact6">fact6</string>
+    <string name="text_fact7">fact7</string>
+    <string name="text_fact8">fact8</string>
+    <string name="text_fact9">fact9</string>
+    <string name="text_fact10">fact10</string>
+    <string name="text_fact11">fact11</string>
+    <string name="text_fact12">fact12</string>
+    <string name="text_fact13">fact13</string>
+    <string name="text_fact14">fact14</string>
+    <string name="text_fact15">fact15</string>
+    <string name="text_fact16">fact16</string>
+    <string name="text_fact17">fact17</string>
+    <string name="text_fact18">fact18</string>
+    <string name="text_fact19">fact19</string>
+    <string name="text_fact20">fact20</string>
+    <string name="text_fact21">fact21</string>
+    <string name="text_fact22">fact22</string>
+    <string name="text_fact23">fact23</string>
+    <string name="text_fact24">fact24</string>
+    <string name="text_fact25">fact25</string>
+    <string name="text_fact26">fact26</string>
+    <string name="text_fact27">fact27</string>
+    <string name="text_fact28">fact28</string>
+    <string name="text_fact29">fact29</string>
+    <string name="text_fact30">fact30</string>
+
+    <!-- Menu -->
+    <string name="text_sync">Save progress</string>
+    <string name="text_settings">Settings</string>
+    <string name="text_about">About</string>
+    <!-- Settings -->
+    <string name="text_reset_progress">Reset ALL progress</string>
+    <string name="text_reset">Reset</string>
+
+    <!-- Test -->
+    <string name="out">txview</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_exercise">ExerciseActivity</string>
+    <string name="title_activity_diet">DietActivity</string>
+    <string name="title_activity_quiz">Quiz</string>
+    <string name="title_activity_login">Minitrainer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_fact">FactActivity</string>
+    <string name="title_activity_questionnaire">QuestionnaireActivity</string>
+
+</resources>

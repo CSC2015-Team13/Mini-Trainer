@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_sync"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/sync"
+        android:title="@string/text_sync"/>
+    
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/settings"
+        android:title="@string/text_settings"/>
+        
+    <item
+        android:id="@+id/menu_about"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/about"
+        android:title="@string/text_about"/>
+
+</menu>
