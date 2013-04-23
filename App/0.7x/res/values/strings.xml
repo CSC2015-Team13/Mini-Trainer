@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Login Activity -->
+
+    <string name="unable_login">Trouble logging in?</string>
+    <string name="logo">minitrainer logo</string>
+    <string name="tab_register">Register</string>
+    <string name="tab_login">Login</string>
+    <string name="hint_login_username">Username</string>
+    <string name="hint_login_password">Password</string>
+    <string name="hint_reg_username">Choose a username</string>
+    <string name="hint_reg_password">And a password</string>
+    <string name="hint_reg_email">Your email address</string>
+    <string name="button_register">Begin!</string>
+    <string name="button_login">Go!</string>
+    <string name="chbox_save_dets">Remember me</string>
+    <string name="text_recovery_info">Account details will be sent to your email address</string>
+
+    <!-- Main -->
+    <string name="app_name">Minitrainer</string>
+    <string name="app_logo">Minitrainer_logo</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button_exDiets">Exercises and Diets</string>
+    <string name="button_prof">Profile</string>
+    <string name="button_activities">Activities</string>
+    <string name="button_prefs">Preferences</string>
+
+    <!-- Exercise Activity -->
+    <string name="stepX">1/4</string>
+    <string name="text_warmup">Warm up</string>
+    <string name="text_pushups">Simple push-ups</string>
+    <string name="text_crunches">Crunches</string>
+    <string name="text_squats">Squats</string>
+    <string name="text_abs_wout">Abs workout</string>
+    <string name="text_mountain_climbers">Mountain climbers</string>
+    <string name="text_pushups_singleLegRaise">Push-ups with single-leg raise</string>
+    <string name="text_frogPullovs">Frog pullovers</string>
+    <string name="text_stabBallPushups">Stability ball push-ups</string>
+    <string name="text_ex0_step1">You should spend at least 5 minutes on this warm-up routine. You may warm up for longer if you want.\n\nStart off marching on the spot and then march forwards and backwards.</string>
+    <string name="text_ex0_step2">Keep marching and start rolling your shoulders.\nRoll your shoulders forwards five times and backwards five times, then repeat one more time.\nLet your arms hang loose by your sides. </string>
+    <string name="text_ex0_step3">Next, do a quad stretch - grasp your ankle and gently pull your heel up and back until you feel a stretch in the front of your thigh.\nStand tall, keep knees together and avoid leaning to the side.\nKeep a slight bend in the supporting leg.</string>
+    <string name="text_ex0_step4">Next, stretch your chest - clasp hands behind your back with palms facing up.\nPull hands down and try to bring shoulder blades together.\nYour chest should stick out. Do not arch your back.</string>
+    <string name="text_ex0_step5">Next, do an upper back stretch - round the back, extend arms in front of you. Clasp hands together, palms facing in.\nDrop your head.\nFocus on increasing the gap between your hands and chest, feeling your shoulders stretching across your back. </string>
+    <string name="text_ex0_step6">Finally, do the tricep stretch - place your hand on your upper back with the elbow bend upwards. Use other hand to pull the elbow towards your head to feel the stretch.\nDo not hold the elbow joint and do not arch your back. Repeat with the other arm.</string>
+    <string name="text_ex1_step1">Suggested number of reps: 20 \n\nTake a prone position on the floor or other rigid surface that\'s able to support your body weight.\nKeep your feet together!</string>
+    <string name="text_ex1_step2">Position hands palms-down on the floor, approximately shoulder width apart.\nRaise yourself using your arms then lower your torso to the ground until your elbows form a 90 degree angle.</string>
+    <string name="text_ex1_step3"></string>
+    <string name="text_ex2_step1">Suggested number of reps: 20 \n\nLie on your back on the floor and bend your knees.\nYour feet can be flat on the floor, or you can keep them suspended in the air during your crunches for a little extra crunch.</string>
+    <string name="text_ex2_step2">Cross your arms in front of your chest.\nYour head and neck should be resting on your hands.</string>
+    <string name="text_ex2_step3">Curl your back to lift your shoulders towards the ceiling (not towards your knees) using strictly your abdominal muscles. </string>
+    <string name="text_ex3_step1">Suggested number of reps: 20 \n\nSet your legs apart, while keeping your weight on your heels.\nKeep your chest up!</string>
+    <string name="text_ex3_step2">Gradually push your hips back towards the floor.\nYour hips should move before your knees bend.\nWedge your elbows in between your knees at the bottom point of the movement.</string>
+    <string name="text_ex3_step3">Initiate the second part of the move by driving your hips forward to return to the start position</string>
+    <string name="text_ex4_step1">Suggested number of reps: 15–20\n\nStart with your body flat on your back.</string>
+    <string name="text_ex4_step2">Stretch your hands backwards and raise your feet 6 inches(15cm) from the ground.</string>
+    <string name="text_ex4_step3">Begin by gradually bringing your arms forward towards your knee and at the same time raise your legs up to a 45 degree angle.\nSlowly return both hands and legs to the start position and repeat this for the required sets.</string>
+    <string name="text_ex5_step1">Suggested number of reps: 10–20 \n\nBegin with a hands and knees position with your toes pointed toward the floor.\nBring your left knee forward and place it on the floor under your chest.</string>
+    <string name="text_ex5_step2">Lift your right knee off the ground, making your right leg straight and strong</string>
+    <string name="text_ex5_step3">Keeping your hands firmly on the ground, jump to switch leg positions.</string>
+    <string name="text_ex5_step4">Now your left leg should be fully extended while your right knee is placed under your chest, and your hands firmly on the ground.\nMake sure to maintain your body weight on both legs. </string>
+    <string name="text_ex6_step1">Suggested number of reps: 15 \n\nCome to a hands and knees position (quadruped) on the ground with your hands directly under your shoulders, fingers facing forward, and knees under your hips.</string>
+    <string name="text_ex6_step2">Reach one leg out and away followed by the other leg, bringing you to a plank position.\nYour head should be aligned with your spine. </string>
+    <string name="text_ex6_step3">Slowly bend the elbows, lowering your body toward the floor.\nKeep your head aligned with your spine.\nDo not allow your low back or ribcage to sag or your hips to hike upward. </string>
+    <string name="text_ex6_step4">Straighten the elbows, pressing upward through your arms.\nAs you straighten the arms, lift your left foot off the floor, keeping the knee straight.\nContinue pressing until the elbows are straight and your left leg is off the floor.</string>
+    <string name="text_ex6_step5">Hold this position briefly before returning to your starting position.\nRepeat the push up alternating legs with each repetition.</string>
+    <string name="text_ex7_step1">Suggested number of reps: 10\n\nLie down on your back on a flat surface. Put the soles of your feet together with your knees pointing out to the sides, so your kneecaps are as far away from one another as they can be.\nPull your feet towards your torso, keeping your feet centered and together at the soles.</string>
+	<string name="text_ex7_step2">Stretch your arms straight in front of your chest towards the ceiling. Straighten your elbows and clasp your hands together.</string>
+	<string name="text_ex7_step3">Bring your clasped hands slowly to rest on the floor behind your head. Try to touch the ground, but keep your arms straight.\nIf your arms bend as you approach the floor, start over and stop above the ground just before your arms begin to bend.</string>
+	<string name="text_ex7_step4">Bring your hands back to their original positions, then repeat.\nContinue these overhead and pullback motions for however long you like, keeping your limbs controlled and moving smoothly throughout the exercise.</string>
+    <string name="text_ex8_step1">Suggested number of reps: 20\nPre-requisite: a stability ball or a big pillow\n\nBegin this with your body directly on top of the ball. The ball should be placed beneath your abdomen, the stretch your legs on the floor. Take a few deep breaths before you start.</string>
+    <string name="text_ex8_step2">Try to gently squeeze the ball between your hands to create more strength and stability.</string>
+    <string name="text_ex8_step3">Slowly press your body upward until your elbows are straight.\nKeep your body straight for a few seconds and then return to the start position.</string>
+    <string name="text_complete_ex_button">Complete exercise</string>
+
+    <!-- Diet Activity -->
+
+    <string name="text_muscleGain">Muscle gain</string>
+    <string name="text_weightLoss">Weight loss</string>
+    <string name="text_getRipped">Get ripped</string>
+    <string name="text_staySlim">Staying slim</string>
+    <string name="text_d5">Weight loss #2</string>
+    <string name="text_d6">TBD</string>
+    <string name="text_d7">Weight loss #3</string>
+    <string name="text_breakfast">Breakfast</string>
+    <string name="text_snack">Snack</string>
+    <string name="text_lunch">Lunch</string>
+    <string name="text_dinner">Dinner</string>
+    <string name="text_preWO">Pre-workout</string>
+    <string name="text_postWO">Post-workout</string>
+    <string name="text_d1_breakfast">3 whole eggs, 2 egg white\nGrilled bacon\n1 tomato\n2 bagels\nFruit juice (0.5l)</string>
+    <string name="text_d1_snack1">Cottage cheese on 6 crackers\n1 banana</string>
+    <string name="text_d1_lunch">Baked potato\nTuna\nCheese\nProtein shake</string>
+    <string name="text_d1_snack2">1 wholegrain bagel\nSmoked salmon(80g)\nCottage cheese\nProtein shake</string>
+    <string name="text_d1_dinner">Protein shake\nChicken (or beef fajitas)</string>
+    <string name="text_d1_snack3">All-bran muffin or carrot cake</string>
+    <string name="text_d2_breakfast">Ham and mushroom omelette</string>
+    <string name="text_d2_snack1">Nuts and fish oil</string>
+    <string name="text_d2_lunch">Homemade tuna salad</string>
+    <string name="text_d2_snack2">Chicken and vegetables</string>
+    <string name="text_d2_snack3">Protein shake and fruit</string>
+    <string name="text_d2_dinner">Chicken stir fry with brown rice</string>
+    <string name="text_d3_breakfast">4 egg whites(scrambled, fried or omelette)\nWholegrain bread(2 slices)\nOats(50g)\nMilk</string>
+    <string name="text_d3_snack1">2 oatcakes and 2 apples</string>
+    <string name="text_d3_lunch">Turkey(150g)\nSwiss cheese and salad on wholegrain bread</string>
+    <string name="text_d3_snack2">Protein shake\n2 pieces of citrus fruit\nblack coffee</string>
+    <string name="text_d3_dinner">Stir fried chicken(150g)\nBrown rice\n(1 cup)\nBroccoli</string>
+    <string name="text_d3_snack3">Frozen yoghurt (200ml)\nProtein shake</string>
+    <string name="text_d4_breakfast">Pick and/or mix:\nSkim cheese/yogurt\nOatmeal/buckwheat porridge\nCup of tea or milk\n2–3 whole eggs(scrambled, fried or omelette)</string>
+    <string name="text_d4_snack1">2–3 slices of cheese</string>
+    <string name="text_d4_lunch">Pick and/or mix:\nSeafood, fish, meat (do not fry!)\nBrown rice\nMacaroni/pasta\nBuckwheat\nPotatoes (do not fry!)</string>
+    <string name="text_d4_snack2">Pick and/or mix:\nFruits\nNuts\n30g of chocolate\nDried fruits</string>
+    <string name="text_d4_dinner">Pick and/or mix:\nSteamed vegetables\nSteamed fish</string>
+    <string name="text_d4_snack3">A cup of green tea/milk</string>
+    <string name="text_d5_breakfast">A cup of coffee or tea with milk\n1 Slice of bread\n2 eggs (poached or scrambled)\n1 Slice of cheese or ham</string>
+    <string name="text_d5_snack1">A glass of vegetable juice</string>
+    <string name="text_d5_lunch">Bowl of soup\n100g of boiled meat with 2 potatoes\nSalad with olive oil\n200 g of fruits\nCup of coffee or tea\n2 cookies/crackers </string>
+    <string name="text_d5_snack2">A glass of vegetable juice</string>
+    <string name="text_d5_dinner">A mouthful of cold boiled meat or sausage\nVegetable salad with mayo\n1 slice of bread</string>
+    <string name="text_d5_snack3">A glass of vegetable juice</string>
+    <string name="text_d6_breakfast">zczxczxczxc</string>
+    <string name="text_d6_snack1">zxczxczxczc</string>
+    <string name="text_d6_lunch">zxczczxczxczx</string>
+    <string name="text_d6_snack2">zxczxcxz</string>
+    <string name="text_d6_dinner">zxczxczxczx</string>
+    <string name="text_d6_snack3">zcxzczxczxc</string>
+    <string name="text_d7_breakfast">1 hard-boiled egg\nA cup of tea or black coffee</string>
+    <string name="text_d7_snack1">1 apple</string>
+    <string name="text_d7_lunch">130g boiled beef with 100g boiled potatoes\n200g of raw vegetable salad\nA cup of mineral water or black coffee</string>
+    <string name="text_d7_snack2">A cup of tea\n1 apple or a banana</string>
+    <string name="text_d7_dinner">80g of beef\n1 hard-boiled egg\n100g of vegetables\nA cup of vegetable or fruit juice</string>
+
+    <!-- Tabs Main -->
+    <string name="title_activity_tabbed">Minitrainer</string>
+
+    <!-- Tab 1 -->
+    <string name="text_tab1">Do you want to exercise or look up a diet?</string>
+    <string name="text_exButton"></string>
+    <string name="text_dButton"></string>
+
+    <!-- Tab 2 -->
+    <string name="text_tab2">Profile</string>
+    <string name="text_progress">Progress</string>
+    <string name="text_level">Level:</string>
+    <string name="text_experience">Experience gained:</string>
+    <string name="text_value_currentLvl">1</string>
+    <string name="text_value_currentExp">0</string>
+    <string name="text_compExToday">Exercises done today:</string>
+    <string name="text_value_compExToday">0</string>
+    <string name="text_feedback">Feedback</string>
+    <string name="text_yourPerfToday">Performance today:</string>
+    <string name="text_default_perf">You did a good job!</string>
+    <string name="hint_heightEx">Height e.g. 186(cm)</string>
+    <string name="hint_weightEx">Weight e.g. 73.5(kg)</string>
+    <string name="text_button_bmi">Calculate BMI</string>
+    <string name="text_default_BMI">N/A</string>
+    <string name="text_bmiTag">Your BMI is:</string>
+    <string name="text_na">N/A</string>
+    <string name="text_tapHere">Tap to calculate</string>
+    <string name="text_default_feedback">No feedback yet</string>
+
+    <!-- Tab 3 -->
+    <string name="text_tab3">Activities</string>
+
+    <!-- Quiz -->
+
+    <string name="q1">Which of these foods is the richest in Calcium? (It keeps your bones and teeth strong)</string>
+    <string name="q1A">A) Cheese</string>
+    <string name="q1B">B) Milk</string>
+    <string name="q1C">C) Almonds</string>
+    <string name="q1D">D) Brazil Nuts</string>
+
+    <string name="q2">How much weight does water make up in our bodies?</string>
+    <string name="q2A">A) 40–50 percent</string>
+    <string name="q2B">B) 30–40 percent</string>
+    <string name="q2C">C) 60–70 percent</string>
+    <string name="q2D">D) 50–60 percent</string>
+
+    <string name="q3">What is the recommended consumption of calories per day for an average human?</string>
+    <string name="q3A">A) 1500/1000 calories</string>
+    <string name="q3B">B) 2000/1500 calories</string>
+    <string name="q3C">C) 2500/2000 calories</string>
+    <string name="q3D">D) 3000/2500 calories</string>
+
+    <string name="q4">What Vitamin helps the body to recover faster from wounds and boosts the immune system?</string>
+    <string name="q4A">A) Vitamin D</string>
+    <string name="q4B">B) Vitamin A</string>
+    <string name="q4C">C) Vitamin B</string>
+    <string name="q4D">D) Vitamin C</string>
+
+    <string name="q5">Which have the most Vitamin C?</string>
+    <string name="q5A">A) Bell Peppers</string>
+    <string name="q5B">B) Oranges</string>
+    <string name="q5C">C) Lemons</string>
+    <string name="q5D">D) Kiwis</string>
+
+    <string name="q6">What does protein do?</string>
+    <string name="q6A">A) Maintains body tissues</string>
+    <string name="q6B">B) Increases stamina</string>
+    <string name="q6C">C) Regulates body processes</string>
+    <string name="q6D">D) All of the above</string>
+						                           
+    <string name="q7">Which one has the most protein?</string>
+    <string name="q7A">A) Turkey Breast</string>
+    <string name="q7B">B) Beans</string>
+    <string name="q7C">C) Tuna, Salmon</string>
+    <string name="q7D">D) Eggs</string>
+
+    <string name="q8">Which Vitamin does not only help with vision, but also helps synthesis protein?</string>
+    <string name="q8A">A) Vitamin E</string>
+    <string name="q8B">B) Vitamin A</string>
+    <string name="q8C">C) Vitamin C</string>
+    <string name="q8D">D) Vitamin D</string>
+
+    <string name="q9">Which is the richest in Vitamin A?</string>
+    <string name="q9A">A) Tomato</string>
+    <string name="q9B">B) Carrot</string>
+    <string name="q9C">C) Liver</string>
+    <string name="q9D">D) Lettuce</string>
+
+    <string name="q10">Which of these have the most Zinc? (Important for growth, taste, smell, vision and the immune system)</string>
+    <string name="q10A">A) Dried Bananas</string>
+    <string name="q10B">B) Raspberries</string>
+    <string name="q10C">C) Avocados</string>
+    <string name="q10D">D) Dried Apricots</string>
+
+    <string name="q11">Which of these has the highest Cholesterol and should be consumed in moderate amounts?</string>
+    <string name="q11A">A) Caviar</string>
+    <string name="q11B">B) Cheese</string>
+    <string name="q11C">C) Liver</string>
+    <string name="q11D">D) Egg Yolk</string>
+
+    <string name="q12">Which way of cooking eggs is the least healthy one?</string>
+    <string name="q12A">A) Poaching</string>
+    <string name="q12B">B) Frying</string>
+    <string name="q12C">C) Omelette</string>
+    <string name="q12D">D) Scrambled</string>
+
+    <string name="q13">Which nutrient is the most important source of energy in exercises with high intensity?</string>
+    <string name="q13A">A) Fat</string>
+    <string name="q13B">B) Carbohydrate</string>
+    <string name="q13C">C) Protein</string>
+    <string name="q13D">D) All the above in equal parts</string>
+						                            
+    <string name="q14">How should a sports drink NOT be?</string>
+    <string name="q14A">A) Isotonic</string>
+    <string name="q14B">B) Hypertonic</string>
+    <string name="q14C">C) Hypotonic</string>
+    <string name="q14D">D) It does not matter</string>
+
+    <string name="q15">How many litres of water per day is it recommended to drink for an average human?</string>
+    <string name="q15A">A) 1 litre</string>
+    <string name="q15B">B) 1.5 litres</string>
+    <string name="q15C">C) 2.5 litres</string>
+    <string name="q15D">D) 3 litres</string>
+
+    <string name="q16">Which element transports oxygen in blood?</string>
+    <string name="q16A">A) Magnesium</string>
+    <string name="q16B">B) Calcium</string>
+    <string name="q16C">C) Sodium</string>
+    <string name="q16D">D) Iron</string>
+
+    <string name="q17">Which of these has the highest amount of Iron in it?</string>
+    <string name="q17A">A) Liver</string>
+    <string name="q17B">B) Dark Chocolate</string>
+    <string name="q17C">C) Beans</string>
+    <string name="q17D">D) Nuts</string>
+
+    <string name="q18">Which is the richest in Vitamin B12? (It improves your memory!)</string>
+    <string name="q18A">A) Oysters</string>
+    <string name="q18B">B) Cheese</string>
+    <string name="q18C">C) Lamb</string>
+    <string name="q18D">D) Caviar</string>
+
+    <string name="q19">Which Vitamin helps to maintain cell membranes which are essential for growth of muscle cells?</string>
+    <string name="q19A">A) Vitamin A</string>
+    <string name="q19B">B) Vitamin E</string>
+    <string name="q19C">C) Vitamin D</string>
+    <string name="q19D">D) Vitamin B</string>
+
+    <string name="q20">Which food has the highest Vitamin E content? (It keeps your skin, heart and circulation, nerves, muscles and red blood cells healthy)</string>
+    <string name="q20A">A) Eggs</string>
+    <string name="q20B">B) Coconut oil</string>
+    <string name="q20C">C) Sunflower Seeds</string>
+    <string name="q20D">D) Poppy</string>
+
+    <string name="q21">Which is worse: over-sleeping or under-sleeping?</string>
+    <string name="q21A">A) Over-sleeping</string>
+    <string name="q21B">B) Both provide insignificant impact</string>
+    <string name="q21C">C) Under-sleeping</string>
+    <string name="q21D">D) Both are equally bad</string>
+
+    <string name="q22">Which Vitamin is crucial for the absorption of Calcium and Phosphorus?</string>
+    <string name="q22A">A) Vitamin A</string>
+    <string name="q22B">B) Vitamin B</string>
+    <string name="q22C">C) Vitamin C</string>
+    <string name="q22D">D) Vitamin D</string>
+
+    <string name="q23">Which of these foods has the most vitamin D in it?</string>
+    <string name="q23A">A) Fish</string>
+    <string name="q23B">B) Ham</string>
+    <string name="q23C">C) Eggs</string>
+    <string name="q23D">D) Mushrooms</string>
+
+    <string name="q24">Which Mineral’s main role is to produce energy and synthesize proteins? It can often be found in bran products (e.g. Rice, Oat)</string>
+    <string name="q24A">A) Magnesium</string>
+    <string name="q24B">B) Potassium</string>
+    <string name="q24C">C) Selenium</string>
+    <string name="q24D">D) Zinc</string>
+
+    <string name="q25">People who are exposed to normal quantities of sunlight do not usually need supplements of Vitamin …</string>
+    <string name="q25A">A) A</string>
+    <string name="q25B">B) D</string>
+    <string name="q25C">C) E</string>
+    <string name="q25D">D) C</string>
+
+    <string name="q26">How much overweight will result in many more health problems comparing to being normal weight?</string>
+    <string name="q26A">A) 5 percent</string>
+    <string name="q26B">B) 10 percent</string>
+    <string name="q26C">C) 20 percent</string>
+    <string name="q26D">D) 25 percent</string>
+
+    <string name="q27">What contains the most Magnesium? (Helps to maintain normal muscle and nerve function, keeps bones and immune system strong)</string>
+    <string name="q27A">A) Sunflower Seeds</string>
+    <string name="q27B">B) Bran (Rice, Wheat, and Oat)</string>
+    <string name="q27C">C) Cocoa, Chocolate</string>
+    <string name="q27D">D) Brazil Nuts</string>
+
+    <string name="q28">Which Mineral is required to help keep your cells, bones and teeth healthy?</string>
+    <string name="q28A">A) Zinc</string>
+    <string name="q28B">B) Sodium</string>
+    <string name="q28C">C) Phosphorus</string>
+    <string name="q28D">D) Potassium</string>
+
+    <string name="q29">Which food contains the most Phosphorus?</string>
+    <string name="q29A">A) Cheese</string>
+    <string name="q29B">B) Sunflower Seeds</string>
+    <string name="q29C">C) Nuts (Brazil and Pine)</string>
+    <string name="q29D">D) Bran (Rice and Oat)</string>
+
+    <string name="q30">Why is it required to consume proteins when body building?</string>
+    <string name="q30A">A) It maintains all cells</string>
+    <string name="q30B">B) It creates individual amino acids</string>
+    <string name="q30C">C) It produces antibodies</string>
+    <string name="q30D">D) All of the above</string>
+    <string name="text_qNum">Question # x</string>
+    <string name="text_question">Nothing to ask yet</string>
+    <string name="text_choiceA"></string>
+    <string name="text_choiceB"></string>
+    <string name="text_choiceC"></string>
+    <string name="text_choiceD"></string>
+
+    <!-- Facts -->
+    <string name="text_factTitle1">Fact #1 &amp; Fact #2</string>
+    <string name="text_factTitle2">Fact #3 &amp; Fact #4</string>
+    <string name="text_factTitle3">Fact #5 &amp; Fact #6</string>
+    <string name="text_factTitle4">Fact #7 &amp; Fact #8</string>
+    <string name="text_factTitle5">Fact #9 &amp; Fact #10</string>
+    <string name="text_factTitle6">Fact #11 &amp; Fact #12</string>
+    <string name="text_factTitle7">Fact #13 &amp; Fact #14</string>
+    <string name="text_factTitle8">Fact #15 &amp; Fact #16</string>
+    <string name="text_factTitle9">Fact #17 &amp; Fact #18</string>
+    <string name="text_factTitle10">Fact #19 &amp; Fact #20</string>
+    <string name="text_factTitle11">Fact #21 &amp; Fact #22</string>
+    <string name="text_factTitle12">Fact #23 &amp; Fact #24</string>
+    <string name="text_factTitle13">Fact #25 &amp; Fact #26</string>
+    <string name="text_factTitle14">Fact #27 &amp; Fact #28</string>
+    <string name="text_factTitle15">Fact #29 &amp; Fact #30</string>
+    <string name="text_factTitle16">Fact #31 &amp; Fact #32</string>
+    <string name="text_fact1">Adults (18 and over) need 30 minutes of physical activity of five or more days a week to be healthy; children and teens need 60 minutes of activity a day for their health.</string>
+    <string name="text_fact2">Thirty of activity broken into smaller segments of 10 or 15 minutes throughout the day have significant health benefits.</string>
+    <string name="text_fact3">Did you know that the amount of saliva produced in a healthy person per day is on average 0.75–1.5 litres per day?</string>
+    <string name="text_fact4">If all 600 muscles in the body pulled in one direction, you could lift around 25 tons.</string>
+    <string name="text_fact5">Did you know that exercise increases energy levels and increases serotonin in the brain, which leads to improved mental clarity?</string>
+    <string name="text_fact6">69 percent of people consider themselves to be physically fit, but only 13 percent are actually physically fit</string>
+    <string name="text_fact7">Did you know that the surface of the human intestine is around 600 square meters?</string>
+    <string name="text_fact8">The sound you hear when you crack your knuckles is actually the sound of nitrogen gas bubbles bursting.</string>
+    <string name="text_fact9">Did you know that you can lose one hundred and fifty calories if you bang your head on a wall for an hour?</string>
+    <string name="text_fact10">It is harder to put on 4.5 kg of muscle than it is to lose 4.5kg of fat!</string>
+    <string name="text_fact11">Did you know that after eating too much, your hearing is less sharp?</string>
+    <string name="text_fact12">Your heart pumps about 9000 litres of blood each day!</string>
+    <string name="text_fact13">Did you know that when you take a step, you are using up to 200 muscles?</string>
+    <string name="text_fact14">It is impossible to tickle yourself!</string>
+    <string name="text_fact15">Did you know that you can lose weight and still gain muscle? Likewise, you can also gain weight while still losing fat.</string>
+    <string name="text_fact16">For the average adult human, the skin has a surface area of between 1.5–2.0 square metres</string>
+    <string name="text_fact17">Did you know that the heart is the strongest muscle of the body and beats around 100,000 times a day?</string>
+    <string name="text_fact18">Eating at night does not make you fat – overeating does.</string>
+    <string name="text_fact19">Did you know that the average human body contains enough fat to make around seven bars of soap?</string>
+    <string name="text_fact20">When you smile you use up to 17 muscles, while frowning you use 43.</string>
+    <string name="text_fact21">Did you know that you cannot sneeze with your eyes open?</string>
+    <string name="text_fact22">It’s hard to believe, but a caterpillar has more muscles than you do!</string>
+    <string name="text_fact23">Did you know that the tongue is one of the strongest muscles of human body along with the heart?</string>
+    <string name="text_fact24">Healthy human bones are stronger than concrete!</string>
+    <string name="text_fact25">Did you know that a sneeze travels at over 160 kilometres per hour?</string>
+    <string name="text_fact26">Most people cannot lick their own elbows!</string>
+    <string name="text_fact27">Did you know that your nose can remember up to 50,000 different scents?</string>
+    <string name="text_fact28">The surface area of a human lung is equal to a tennis court!</string>
+    <string name="text_fact29">Yawning helps you cool your brain. It is an involuntary behaviour. When you yawn, the influx of cool air may ventilate your sinuses and facilitate brain cooling.</string>
+    <string name="text_fact30">It is impossible to swallow and breathe at the same time. However, babies can do this but until they are about nine months.</string>
+    <string name="text_fact31">Did you know that in 30 minutes, the average body gives off enough heat (combined) to bring 2 litres of water to boil?</string>
+    <string name="text_fact32">The average human body contains enough iron to make a small nail!</string>
+
+    <!-- Menu -->
+    <string name="text_sync">Save progress</string>
+    <string name="text_settings">Settings</string>
+    <string name="text_about">About</string>
+    <!-- Settings -->
+    <string name="text_reset_progress">Reset ALL progress</string>
+    <string name="text_reset">Reset</string>
+    
+    <!-- References -->
+    <string name="ex_source">1. http://www.nhs.uk/Livewell/fitness/Pages/how-to-warm-up.aspx\n2. http://www.wikihow.com/Do-Crunches\n3. http://www.wikihow.com/Do-a-Push-Up\n4. http://www.menshealth.co.uk/blogs/maximize-every-exercise\n5. http://www.acefitness.org/acefit/fitness_programs_exercise_library_details.aspx?exerciseid=258\n6. http://www.acefitness.org/acefit/fitness_programs_exercise_library_details.aspx?exerciseid=42\n7. http://www.wikihow.com/Do-Frog-Pullovers\n8. http://www.acefitness.org/acefit/fitness_programs_exercise_library_details.aspx?exerciseid=63</string>
+    
+    <string name="diets_source">1. http://www.menshealth.co.uk/food-nutrition/muscle-foods/eat-to-get-ripped-144983#sthash.pO6fzOLC.dpuf\n2. http://www.menshealth.co.uk/lose-weight/diet-plans/fat-burning-plan-for-busy-people#sthash.mfE2plX9.dpuf\n3. http://www.menshealth.co.uk/food-nutrition/muscle-foods/eat-to-get-ripped-144983#sthash.lURm1XyI.dpuf\n4. http://www.menshealth.co.uk/lose-weight/healthy-delicious/italian-feast-9500#sthash.SrUDl6fG.dpuf\n5. M. Bolshakova(2006) \"Diet Alphabet\" (ISBN 5-699-15327-6)</string>
+    
+    <string name="lifestyle_source">http://tinyurl.com/cc8k5wm</string>
+    
+    <string name="quiz_source">1. http://en.wikipedia.org/wiki/Main_Page\n2. http://www.healthaliciousness.com/most-nutritious-foods-lists.php\n3. http://www.healthaliciousness.com/articles/\n4. http://www.medicalnewstoday.com/articles/161618.php\n5. http://www3.georgetown.edu/admin/auxiliarysrv/dining/nutrition/protein.html\n6. http://www.healthy-skincare.com/benefits-of-vitamin-e.html\n7. http://www.nhs.uk/Livewell/\n8. http://en.wikipedia.org/\n9. http://www.doctoryourself.com/badhabits.html\n10. http://www.ehow.com/facts_4923538_what-iron-used-body.html\n11. http://www.getbig.com/articles/faq-min1.htm\n12. http://www.medicalnewstoday.com/articles/161618.php\n13. http://www.nutrilite.com/en-us/Nature/Nutrients/vitamin-c.aspx\n14. http://www3.georgetown.edu/admin/auxiliarysrv/dining/nutrition/protein.html\n15. http://www.care2.com/greenliving/minerals-for-good-health.html</string>
+    
+    <!-- Disclaimer -->
+    <string name="text_disclaimer1">The Android application \"Minitrainer\" is provided as is and the user installs and uses the app at his own risk.\n\nThe developers have no liability in case of damage or loss of data on the device because of the app.\n\nIf the user uses the app, no guarantee can be given that the users lifestyle will improve or the user will become healthier, more active than he already is.\nThis has to do with the facts that every individual(user) is different(has a unique state of health) and there is a huge number of factors which the app cannot take into account.\nTherefore, some diets and/or exercises should be followed or done carefully or best avoided and some diets and/or exercises might not work for/be appropriate/applicable to certain individuals.</string>
+    
+    <!-- Test -->
+    <string name="out">txview</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_exercise">ExerciseActivity</string>
+    <string name="title_activity_diet">DietActivity</string>
+    <string name="title_activity_quiz">Quiz</string>
+    <string name="title_activity_login">Minitrainer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_fact">FactActivity</string>
+    <string name="title_activity_questionnaire">QuestionnaireActivity</string>
+
+</resources>
