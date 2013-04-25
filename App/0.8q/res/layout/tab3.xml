@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/activities"
+    android:orientation="vertical"
+    android:paddingTop="70dp" >
+
+    			<!--  
+     		<ListView
+ 					android:id="@+id/lvMain"
+ 					android:layout_width="match_parent"
+ 					android:layout_height="wrap_content">
+			</ListView>-->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingRight="5dp" >
+
+            <Button
+                android:id="@+id/qBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:minHeight="100dp"
+                android:text="Image for Quiz here" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tabbedView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingRight="5dp" >
+
+            <Button
+                android:id="@+id/questBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:minHeight="100dp"
+                android:text="Lifestyle Test" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingRight="5dp" >
+
+            <Button
+                android:id="@+id/factsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:minHeight="100dp"
+                android:text="Image for Facts here" />
+
+        </TableRow>
+
+    </TableLayout>
+			
+</LinearLayout>
