@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/tab2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="@drawable/profile"
+	        android:orientation="vertical"
+	        android:paddingTop="65dp" >
+
+    	<ScrollView
+	    android:id="@+id/sv_tab2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:scrollbars="horizontal" >
+
+    <TableLayout
+        android:id="@+id/tl_tab2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text_progressOf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/text_progress"
+            android:textSize="21sp" />
+
+        <TableRow
+            android:id="@+id/prRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:text="@string/text_level"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/currentLvl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_value_currentLvl"
+                android:textSize="19sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/prRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:text="@string/text_experience"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/currentExp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_value_currentExp"
+                android:textSize="19sp" />
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/prRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp" >
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:max="50"
+                android:progress="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/prRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:text="@string/text_compExToday"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/completedExs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/text_value_compExToday"
+                android:textSize="19sp" />
+
+        </TableRow>
+     
+        <TableRow
+            android:id="@+id/prRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_feedback"
+                android:textSize="21sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/prRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:text="@string/text_yourPerfToday"
+                android:textSize="19sp" />
+
+        </TableRow>
+
+        <RatingBar
+            android:id="@+id/performanceBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:clickable="false"
+            android:isIndicator="false"
+            android:longClickable="false"
+            android:numStars="5"
+            android:rating="0.0"
+            android:stepSize="0.625" />
+
+        <TextView
+            android:id="@+id/exs_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/text_default_perf"
+            android:textSize="19sp" />
+<!-- 
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/text_bmiTag"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/BMI_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_tapHere"
+                android:textSize="18sp" />
+            
+        </TableRow>
+
+        <TextView
+            android:id="@+id/BMI_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/text_default_feedback"
+            android:textSize="18sp" />
+ -->
+    </TableLayout>
+ </ScrollView>
+
+    	<Button
+    	    android:id="@+id/addExp"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="PLUS 200 EXP" />
+
+</LinearLayout>
