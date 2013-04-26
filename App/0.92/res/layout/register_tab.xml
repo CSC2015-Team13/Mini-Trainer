@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabRegister"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+				<EditText
+				    android:id="@+id/txtRegisterUsername"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginBottom="3dp"
+				    android:layout_marginLeft="5dp"
+				    android:layout_marginRight="5dp"
+				    android:layout_marginTop="10dp"
+				    android:background="@drawable/textfield_bg"
+				    android:hint="@string/hint_reg_username"
+				    android:inputType="text"
+				    android:maxLength="20"
+				    android:paddingLeft="8dp"
+				    android:textSize="20sp" />
+
+				<EditText
+				    android:id="@+id/txtRegisterPass1"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginBottom="3dp"
+				    android:layout_marginLeft="5dp"
+				    android:layout_marginRight="5dp"
+				    android:background="@drawable/textfield_bg"
+				    android:hint="@string/hint_reg_password"
+				    android:inputType="textPassword"
+				    android:maxLength="25"
+				    android:paddingLeft="8dp"
+				    android:singleLine="true"
+				    android:textSize="20sp" />
+
+				<EditText
+				    android:id="@+id/txtRegEmailAddress"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginBottom="3dp"
+				    android:layout_marginLeft="5dp"
+				    android:layout_marginRight="5dp"
+				    android:background="@drawable/textfield_bg"
+				    android:ems="10"
+				    android:hint="@string/hint_reg_email"
+				    android:inputType="textEmailAddress"
+				    android:paddingLeft="8dp"
+				    android:textSize="20sp" >
+
+				    <requestFocus />
+				</EditText>
+
+				<Button
+				    android:id="@+id/btnRegister"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="6dp"
+				    android:background="@drawable/login_button"
+				    android:minHeight="55dp"
+				    android:text="@string/button_register"
+				    android:textSize="30sp"
+				    android:textStyle="normal" />
+			    
+</LinearLayout>
