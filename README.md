@@ -12,6 +12,8 @@ Or if you're looking to install the application on a device, you can find the **
 
 Just drop that file on your device and install it. Make sure to allow unverified sources first though!
 
+If the links aren't working correctly, you should be able to access the whole folder [here](https://www.dropbox.com/sh/hav0hcgtedfuj29/OVvcMdpQO_)
+
 ####Don't have an Android device?
 Don't have a device? Then download a copy of the repository and follow the instructions in the [Installation Guide](https://www.dropbox.com/sh/hav0hcgtedfuj29/roZxIRDpvT/Team%2013%20-%20Minitrainer%20Testing.pdf)
 
