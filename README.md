@@ -7,6 +7,7 @@ Then you're probably looking for one of these
   * [Installation Guide](https://www.dropbox.com/sh/hav0hcgtedfuj29/roZxIRDpvT/Team%2013%20-%20Minitrainer%20Testing.pdf)
 
 Or if you're looking to install the application on a device, you can find the **apk** file below
+
 [Minitrainer.apk](https://www.dropbox.com/sh/hav0hcgtedfuj29/xcM9Fg10X6/minitrainer.apk)
 
 Just drop that file on your device and install it. Make sure to allow unverified sources first though!
