@@ -8,7 +8,7 @@ Then you're probably looking for one of these
 
 Or if you're looking to install the application on a device, you can find the **apk** file below
 
-[Minitrainer.apk](https://www.dropbox.com/sh/hav0hcgtedfuj29/xcM9Fg10X6/minitrainer.apk)
+[Minitrainer.apk](https://github.com/CSC2015-Team13/Mini-Trainer/blob/master/App/tradefair_apk/minitrainer_tradefair.apk?raw=true)
 
 Just drop that file on your device and install it. Make sure to allow unverified sources first though!
 
